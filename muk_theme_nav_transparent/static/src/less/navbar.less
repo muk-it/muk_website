@@ -42,22 +42,25 @@
 		.container {
 			padding-top: 10px;
 			padding-bottom: 10px;
+			.transition(padding .5s ease;)
 		}
 		
 		.navbar-brand {
 			font-size: @muk_navbar_transparent_brand_size;
 			.transition(font-size .5s ease;);
+			
+				img {
+		    		max-height: 45px;
+		   			margin-top: 0px;
+		   			.transition(max-height .5s ease;);
+				}
 		}
 		
 		li {
 			font-size: @muk_navbar_transparent_font_size;
 			.transition(font-size .5s ease;);
 			
-			&:hover a {
-				background-color: @muk_navbar_transparent_background_hover ! important;
-			}
-
-			&.dropdown:hover a {
+			&:hover > a {
 				background-color: @muk_navbar_transparent_background_hover ! important;
 			}
 
@@ -67,10 +70,15 @@
 				span {
 					color: @muk_navbar_transparent_color ! important;
 				}
+				
+				b {
+					color: @muk_navbar_transparent_color ! important;
+				}
 			}
 
-			&.active a {
+			&.active > a {
 				span {
+					font-weight: bold;
 					color: @muk_navbar_transparent_color_active ! important;
 					border-bottom: 1px solid @muk_navbar_transparent_color_active;
 				}
@@ -80,13 +88,10 @@
 		.dropdown-menu {
 			border: none;
 			padding-top: 0;
+			padding-bottom: 0;
 			.box-shadow(none);
 			color: @muk_navbar_transparent_color;
 			background-color: @muk_navbar_transparent_background;
-			
-			&:hover a {
-				background-color: @muk_navbar_transparent_background;
-			}
 			
 			li {
 				border-top: 1px solid @muk_navbar_transparent_color;
@@ -96,7 +101,7 @@
 					
 					&:hover {
 						color: @muk_navbar_transparent_color;
-						background-color: @muk_navbar_transparent_background;
+						background-color: @muk_navbar_transparent_background_hover;
 					}
 				}
 			}
@@ -118,16 +123,17 @@
 	
 			.navbar-brand {
 				font-size: @muk_navbar_brand_size;
+				
+				img {
+		    		max-height: 35px;
+		   			margin-top: 8px;
+				}
 			}
 	
 			li {
 				font-size: @muk_navbar_font_size;
 				
-				&:hover a {
-					background-color: @muk_navbar_background_hover ! important;
-				}
-	
-				&.dropdown:hover a {
+				&:hover > a {
 					background-color: @muk_navbar_background_hover ! important;
 				}
 	
@@ -139,7 +145,7 @@
 					}
 				}
 	
-				&.active a {
+				&.active > a {
 					span {
 						border-bottom: 0;
 						color: @muk_navbar_color_active ! important;
@@ -152,33 +158,20 @@
 			.dropdown-menu {
 				color: @muk_navbar_color;
 				background-color: @muk_navbar_background;
-
-				&:hover a {
-					background-color: @muk_navbar_background ! important;
-				}
 				
 				li {
 					border-top: 1px solid @muk_navbar_color;
 					
 					a {
 						color: @muk_navbar_color;
-						font-size: 0.9em;
-						padding: 12px 16px;
 						
 						&:hover {
 							color: @muk_navbar_color ! important;
-							background-color: @muk_navbar_background_active ! important;
+							background-color: @muk_navbar_background_hover ! important;
 						}
 					}
-				}
-	
-				li:last-child {
-					border-bottom: 1px solid @muk_navbar_color;
 				}
 			}
 		}
 	}
 }
-
-
-
