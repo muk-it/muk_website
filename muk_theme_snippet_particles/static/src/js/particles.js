@@ -26,18 +26,6 @@ var core = require('web.core');
 var QWeb = core.qweb;
 var _t = core._t;
 
-base.ready().then(function () {
-    $('.particles').each(function(index) {
-    	(new ParticleSnippet($(this))).create_particles();
-    });
-    
-    if($('#particles-js').length >= 1) {
-    	particlesJS.load('particles-js', '/muk_theme_snippet_particles/static/assets/particle.json', function() {
-		  console.log('callback - particles.js config loaded');
-		});
-    }
-});
-
 var ParticleSnippet = core.Class.extend({
 	init: function($particles) {
 		this.$particles = $particles;
@@ -162,6 +150,18 @@ var ParticleSnippet = core.Class.extend({
 		};
 		
 		particlesJS(this.$particles.attr('id'), this.model);
+    }
+});
+
+base.ready().then(function () {
+    $('.particles').each(function(index) {
+    	(new ParticleSnippet($(this))).create_particles();
+    });
+    
+    if($('#particles-js').length >= 1) {
+    	particlesJS.load('particles-js', '/muk_theme_snippet_particles/static/assets/particle.json', function() {
+		  console.log('callback - particles.js config loaded');
+		});
     }
 });
 
