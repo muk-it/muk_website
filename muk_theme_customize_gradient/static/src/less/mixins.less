@@ -1,0 +1,39 @@
+/**********************************************************************************
+* 
+*    Copyright (C) 2017 MuK IT GmbH
+*
+*    This program is free software: you can redistribute it and/or modify
+*    it under the terms of the GNU Affero General Public License as
+*    published by the Free Software Foundation, either version 3 of the
+*    License, or (at your option) any later version.
+*
+*    This program is distributed in the hope that it will be useful,
+*    but WITHOUT ANY WARRANTY; without even the implied warranty of
+*    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*    GNU Affero General Public License for more details.
+*
+*    You should have received a copy of the GNU Affero General Public License
+*    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*
+**********************************************************************************/
+
+.o-create-gradient-classes(@class_name, @color_start, @color_end, @deg: 150deg, @complementary: contrast(@color_start, @text-color, #FFF, 60%), @content-color: @color_start) {
+    .bg-@{class_name} {
+	    background-color: @color_start; 
+	    background-image: linear-gradient(@deg, @color_start 20%, @color_end 80%);
+	    background-image: -webkit-linear-gradient(@deg, @color_start 20%, @color_end 80%);
+	    background-image: -moz-linear-gradient(@deg, @color_start 20%, @color_end 80%);
+	    background-image: -ms-linear-gradient(@deg, @color_start 20%, @color_end 80%);
+	    background-image: -o-linear-gradient(@deg, @color_start 20%, @color_end 80%);
+	    background-image: linear-gradient(@deg, @color_start 20%, @color_end 80%);
+		filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=@color_start, endColorstr=@color_end);
+	    
+        color: @complementary;
+        .text-muted {
+            color: fade(@complementary, 40%);
+        }
+    }
+    body .text-@{class_name} { // html to make the rules more important that bg-* ones
+        color: @content-color;
+    }
+}

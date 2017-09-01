@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--     
+	Copyright (C) 2017 MuK IT GmbH
+	
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as
+    published by the Free Software Foundation, either version 3 of the
+    License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>. 
+-->
+
+<odoo>
+
+<template id="colorpicker" name="Gradient Options" inherit_id="web_editor.colorpicker">
+	<xpath expr="//div[@data-name='transparent_grayscale']" position="after">
+		<div class="o_colorpicker_section" data-name="theme" data-icon-class="fa fa-pause">
+            <button data-color="alpha-gradient">Alpha Gradient</button>
+            <button data-color="beta-gradient">Beta Gradient</button>
+            <button data-color="gamma-gradient">Gamma Gradient</button>
+            <button data-color="delta-gradient">Delta Gradient</button>
+            <button data-color="epsilon-gradient">Epsilon Gradient</button>
+            <button data-color="zeta-gradient">Zeta Gradient</button>
+            <button data-color="eta-gradient">Eta Gradient</button>
+            <button data-color="theta-gradient">Theta Gradient</button>
+        </div>
+	</xpath>
+</template>
+
+</odoo>
