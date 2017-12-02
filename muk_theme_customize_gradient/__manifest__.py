@@ -26,7 +26,7 @@
         Extends the Odoo Website Customize Background Color
         menu to give a selection of gradient backgrounds.
     """,
-    "version": "10.0.1.0.0",
+    "version": "11.0.1.0.0",
     "category": "Website",
     "license": "AGPL-3",
     "website": "http://www.mukit.at",

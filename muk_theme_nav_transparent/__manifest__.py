@@ -26,7 +26,7 @@
         Adds a option to the website customize menu to trigger
         the transparent navigation menu.
     """,
-    "version": "10.0.1.0.1",
+    "version": "11.0.1.0.1",
     "category": "Website",
     "license": "AGPL-3",
     "website": "http://www.mukit.at",

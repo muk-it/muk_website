@@ -27,7 +27,7 @@
         snippet uses particlesJS to give a variety
         of customization options. 
     """,
-    "version": "10.0.1.0.0",
+    "version": "11.0.1.0.0",
     "category": "Website",
     "license": "AGPL-3",
     "website": "http://www.mukit.at",
