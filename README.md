@@ -7,8 +7,7 @@
 
 addon | version | summary
 --- | --- | ---
-[muk_theme_customize_gradient](muk_theme_customize_gradient/) | 10.0 | Odoo Website Option
-[muk_theme_nav_transparent](muk_theme_nav_transparent) | 10.0 | Transparent Website Navigation Menu
-[muk_theme_scroll_up](muk_theme_scroll_up/) | 10.0 | Button to jump to the top of the page
-[muk_theme_snippet_particles](muk_theme_snippet_particles/) | 10.0 | Odoo Website Snippet
-[muk_theme_social_buttons](mmuk_theme_social_buttons/) | 10.0 | Social Button Sidebar
+[muk_theme_customize_gradient](muk_theme_customize_gradient/) | 11.0 | Odoo Website Option
+[muk_theme_nav_transparent](muk_theme_nav_transparent) | 11.0 | Transparent Website Navigation Menu
+[muk_theme_scroll_up](muk_theme_scroll_up/) | 11.0 | Button to jump to the top of the page
+[muk_theme_snippet_particles](muk_theme_snippet_particles/) | 11.0 | Odoo Website Snippet
