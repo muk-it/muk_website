@@ -19,7 +19,7 @@
 
 <odoo>
 
-<template id="fixed_transparent_navbar" customize_show="True" name="Transparent Menu" inherit_id="website.layout">
+<template id="fixed_transparent_navbar" customize_show="True" name="Transparent Menu" inherit_id="portal.frontend_layout">
 	<xpath expr="//div[contains(@class, 'navbar navbar-default navbar-static-top')]" position="attributes">
 	    <attribute name="class">navbar navbar-default navbar-fixed-top muk_navbar_transparent</attribute>
 	</xpath>
