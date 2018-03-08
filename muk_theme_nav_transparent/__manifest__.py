@@ -27,7 +27,7 @@
         the transparent navigation menu.
     """,
     "version": "11.0.1.0.1",
-    "category": "Website",
+    "category": "Hidden",
     "license": "AGPL-3",
     "website": "http://www.mukit.at",
     "author": "MuK IT",
