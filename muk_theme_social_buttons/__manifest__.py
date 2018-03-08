@@ -27,7 +27,7 @@
         information of the company. 
     """,
     "version": "10.0.1.0.0",
-    "category": "Website",
+    "category": "Hidden",
     "license": "AGPL-3",
     "website": "http://www.mukit.at",
     "author": "MuK IT",
