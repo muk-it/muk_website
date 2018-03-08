@@ -27,7 +27,7 @@
         up to the top of the page.
     """,
     "version": "11.0.1.0.0",
-    "category": "Hidden",
+    "category": "Website",
     "license": "AGPL-3",
     "website": "http://www.mukit.at",
     "author": "MuK IT",
