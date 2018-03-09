@@ -37,11 +37,7 @@ Contributors
 Author & Maintainer
 ----------
 
-.. image:: ../static/description/logo.png
-   :alt: MuK IT GmbH
-   :target: https://mukit.at
-
-This module is maintained by the OCA.
+This module is maintained by the MuK IT GmbH.
 
 OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
