@@ -4,7 +4,7 @@ MuK Scroll Up Button
 Adds a button to the bottom of the page to jump back up to the top of the page.
 
 Installation
-------------
+============
 
 To install this module, you need to:
 
@@ -14,25 +14,25 @@ list by clicking on the "Update Apps List" link. Now install the module by
 clicking on the install button.
 
 Configuration
--------------
+============
 
 No additional configuration is needed to use this module.
 
 Usage
--------------
+============
 
 Switch to your website and scroll up button will appear on the bottom of your page.
 
 Credits
--------------
-
-Contributors
 ============
 
-- <Mathias Markl <mathias.markl@mukit.at>
+Contributors
+------------
+
+-	Mathias Markl &lt;<mathias.markl@mukit.at>&gt;
 
 Author & Maintainer
-==========
+------------
 
 This module is maintained by the [MuK IT GmbH].
 

@@ -10,21 +10,20 @@ Installation
 
 To install this module, you need to:
 
-#. Do this ...
+Download the module and add it to your Odoo addons folder. Afterward, log on to
+your Odoo server and go to the Apps menu. Trigger the debug modus and update the
+list by clicking on the "Update Apps List" link. Now install the module by
+clicking on the install button.
 
 Configuration
 =============
 
-To configure this module, you need to:
-
-#. Go to ...
+No additional configuration is needed to use this module.
 
 Usage
 =============
 
-To configure this module, you need to:
-
-1.  Go to ...
+Switch to your website and scroll up button will appear on the bottom of your page.
 
 Credits
 =======
@@ -37,10 +36,11 @@ Contributors
 Author & Maintainer
 ----------
 
-This module is maintained by the MuK IT GmbH.
+This module is maintained by the `MuK IT GmbH <https://www.mukit.at/>`_.
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
-promote its widespread use.
+MuK IT is an Austrian company specialized in customizing and extending Odoo.
+We develop custom solutions for your individual needs to help you focus on
+your strength and expertise to grow your business.
 
-To contribute to this module, please visit https://odoo-community.org.
+If you want to get in touch please contact us via mail
+(sale@mukit.at) or visit our website (https://mukit.at).
