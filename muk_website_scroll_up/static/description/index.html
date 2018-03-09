@@ -4,7 +4,8 @@
 		<h3 class="oe_slogan">Button to jump to the top of the page</h3>
 		<h4 class="oe_slogan" style="font-size: 23px;">MuK IT GmbH -
 			www.mukit.at</h4>
-		<div class="oe_demo oe_picture oe_screenshot">
+		<div style="max-width: 84%; margin: 16px 8%;"
+			class="oe_demo oe_screenshot">
 			<img src="screenshot.png">
 		</div>
 	</div>
@@ -12,14 +13,121 @@
 
 <section class="oe_container" style="padding-top: 25px;">
 	<div class="oe_row oe_spaced">
-		<div class="oe_picture">
+		<div style="max-width: 84%; margin: 16px 8%;">
 			<h3 class="oe_slogan">Overview</h3>
-			<p class="oe_mt32">Adds a button to the bottom of the page to
-				jump back up to the top of the page. To change the style of the
-				button its possible to target the id (#scrollUp).</p>
+			<p class="oe_mt32 text-justify">Adds a button to the bottom of
+				the page to jump back up to the top of the page. The button can be
+				customized using the following attributes.</p>
+			<p>
+				<span style="color: green;"><i class="fa fa-gear"></i></span>
+				<code>scroll_distance</code>
+				-
+				<code>default: 300</code>
+				Distance from top/bottom before showing element (px) <br /> <span
+					style="color: green;"><i class="fa fa-gear"></i></span>
+				<code>scroll_from</code>
+				-
+				<code>default: "top"</code>
+				'top' or 'bottom' <br /> <span style="color: green;"><i
+					class="fa fa-gear"></i></span>
+				<code>scroll_speed</code>
+				-
+				<code>default: 300</code>
+				Speed back to top (ms) <br /> <span style="color: green;"><i
+					class="fa fa-gear"></i></span>
+				<code>easing_type</code>
+				-
+				<code>default: 'linear'</code>
+				Scroll to top easing <br /> <span style="color: green;"><i
+					class="fa fa-gear"></i></span>
+				<code>animation</code>
+				-
+				<code>default: 'fade'</code>
+				Fade, slide, none <br /> <span style="color: green;"><i
+					class="fa fa-gear"></i></span>
+				<code>animation_speed</code>
+				-
+				<code>default: 300</code>
+				Animation speed (ms) <br /> <span style="color: green;"><i
+					class="fa fa-gear"></i></span>
+				<code>scroll_trigger</code>
+				-
+				<code>default: false</code>
+				Set a custom triggering element. Can be an HTML string or jQuery
+				object <br /> <span style="color: green;"><i
+					class="fa fa-gear"></i></span>
+				<code>scroll_target</code>
+				-
+				<code>default: false</code>
+				Set a custom target element for scrolling to. Can be element or
+				number <br /> <span style="color: green;"><i
+					class="fa fa-gear"></i></span>
+				<code>scroll_text</code>
+				-
+				<code>default: &lt;i class='fa fa-chevron-circle-up'
+					aria-hidden='true'/&gt;</code>
+				Text for element <br /> <span style="color: green;"><i
+					class="fa fa-gear"></i></span>
+				<code>scroll_title</code>
+				-
+				<code>default: false</code>
+				Set a custom
+				<code>&lt;a&gt;</code>
+				title if required. <br /> <span style="color: green;"><i
+					class="fa fa-gear"></i></span>
+				<code>scroll_img</code>
+				-
+				<code>default: false</code>
+				Set true to use image <br /> <span style="color: green;"><i
+					class="fa fa-gear"></i></span>
+				<code>active_overlay</code>
+				-
+				<code>default: false</code>
+				Set CSS color to display scrollUp active point, e.g '#00FFFF' <br />
+				<span style="color: green;"><i class="fa fa-gear"></i></span>
+				<code>z_index</code>
+				-
+				<code>default: 300</code>
+				Z-Index for the overlay <br />
+			</p>
 		</div>
 	</div>
 </section>
+
+<section class="oe_container oe_dark">
+	<div class="oe_row oe_spaced" style="max-width: 84%; margin: 16px 8%;">
+		<h3 class="oe_slogan">Customize</h3>
+		<div class="oe_span12">
+			<p class="text-center">Change the settings of the scroll-up
+				button by editing the template file through the HTML/CSS editor.</p>
+			<img style="margin-left: auto; margin-right: auto;"
+				class="oe_picture oe_screenshot" src="screenshot_html.png">
+		</div>
+		<div class="oe_span12">
+			<p class="oe_mt32 text-center">Change the appearance of the
+				scroll-up button by editing the less file through the HTML/CSS
+				editor.</p>
+			<img style="margin-left: auto; margin-right: auto;"
+				class="oe_picture oe_screenshot" src="screenshot_less.png">
+		</div>
+	</div>
+</section>
+
+<section class="oe_container">
+	<div class="oe_row oe_spaced" style="max-width: 84%; margin: 16px 8%;">
+		<h3 class="oe_slogan">Settings</h3>
+		<div class="oe_span6">
+			<p class="text-justify">Turn the scroll-up button on or off by
+				toggling the slider inside the customize settings dropdown. After
+				the page has reloaded the button will be either invisible or visible
+				according to your settings.</p>
+		</div>
+		<div class="oe_span6">
+			<img class="oe_picture oe_screenshot" src="screenshot_settings.png">
+		</div>
+	</div>
+</section>
+
 
 <section class="oe_container oe_dark">
 	<h3 class="oe_slogan">Help and Support</h3>

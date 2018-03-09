@@ -19,8 +19,23 @@
 
 $(document).ready(function () {
  
-	$.scrollUp({
-        scrollText: '<i class="fa fa-chevron-circle-up" aria-hidden="true"></i>'
-    });
-
+	if($('#scrollUpSettings').length) {
+		var settings = $('#scrollUpSettings');
+		$.scrollUp({
+	        scrollDistance: settings.data('scroll_distance') || 300,
+	        scrollFrom: settings.data('scroll_from') || 'top',
+	        scrollSpeed: settings.data('scroll_speed') || 300,
+	        easingType: settings.data('easing_type') || 'linear',
+	        animation: settings.data('animation') || 'fade',
+	        animationSpeed: settings.data('animation_speed') || 200,
+	        scrollTrigger: settings.data('scroll_trigger') || false,
+	        scrollTarget: settings.data('scroll_target') || false,
+	        scrollText: settings.data('scroll_text') || "<i class='fa fa-chevron-circle-up' aria-hidden='true'/>",
+	        scrollTitle: settings.data('scroll_title') || false,
+	        scrollImg: settings.data('scroll_img') || false,
+	        activeOverlay: settings.data('active_overlay') || false,
+	        zIndex: settings.data('z_index') || 2147483647,
+	    });
+	}
+	
 });

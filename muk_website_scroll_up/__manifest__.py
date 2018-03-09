@@ -26,7 +26,7 @@
         Adds a button to the bottom of the page to jump back
         up to the top of the page.
     """,
-    "version": "11.0.1.0.0",
+    "version": "11.0.1.1.0",
     "category": "Website",
     "license": "AGPL-3",
     "website": "http://www.mukit.at",
@@ -35,7 +35,6 @@
         "Mathias Markl <mathias.markl@mukit.at>",
     ],
     "depends": [
-        "base",
         "website",
     ],
     "data": [
@@ -55,5 +54,4 @@
     },
     "application": False,
     "installable": True,
-    
 }

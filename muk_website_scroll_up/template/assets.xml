@@ -18,13 +18,34 @@
 -->
 
 <odoo>
-<template id="assets_frontend" name="Transparent Navbar Menu" inherit_id="website.assets_frontend">
+
+<template id="assets_frontend" name="ScrollUp Button Assets" inherit_id="website.assets_frontend">
 	<xpath expr="//link[last()]" position="after">
-		<link rel="stylesheet" href="/muk_theme_scroll_up/static/src/less/scrollup.less" />
+		<link rel="stylesheet" href="/muk_website_scroll_up/static/src/less/scrollup.less" />
 	</xpath>
 	<xpath expr="//script[last()]" position="after">
-		<script type="text/javascript" src="/muk_theme_scroll_up/static/lib/jquery-scrollup/jquery.scrollUp.js" />
-		<script type="text/javascript" src="/muk_theme_scroll_up/static/src/js/scrollup.js" />
+		<script type="text/javascript" src="/muk_website_scroll_up/static/lib/jquery-scrollup/jquery.scrollUp.js" />
+		<script type="text/javascript" src="/muk_website_scroll_up/static/src/js/scrollup.js" />
     </xpath>
 </template>
+
+<template id="layout" name="ScrollUp Button" inherit_id="website.layout" customize_show="True" active="True">
+	<xpath expr="//div[@id='wrapwrap']" position="after">
+		<div id="scrollUpSettings"
+			data-scroll_distance="300"
+			data-scroll_from="top"
+			data-scroll_speed="300"
+			data-easing_type="linear"
+			data-animation="fade"
+			data-animation_Speed="200"
+			data-scroll_trigger="false"
+			data-scroll_target="false"
+			data-scroll_text="&lt;i class='fa fa-chevron-circle-up' aria-hidden='true' /&gt;"
+			data-scroll_title="false"
+			data-scroll_img="false"
+			data-active_overlay="false"
+			data-z_index="2147483647"/>
+    </xpath>
+</template>
+
 </odoo>
