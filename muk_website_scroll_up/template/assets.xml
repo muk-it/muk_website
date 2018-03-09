@@ -20,11 +20,11 @@
 <odoo>
 <template id="assets_frontend" name="Transparent Navbar Menu" inherit_id="website.assets_frontend">
 	<xpath expr="//link[last()]" position="after">
-		<link rel="stylesheet" href="/muk_theme_scroll_up/static/src/less/scrollup.less" />
+		<link rel="stylesheet" href="/muk_website_scroll_up/static/src/less/scrollup.less" />
 	</xpath>
 	<xpath expr="//script[last()]" position="after">
-		<script type="text/javascript" src="/muk_theme_scroll_up/static/lib/jquery-scrollup/jquery.scrollUp.js" />
-		<script type="text/javascript" src="/muk_theme_scroll_up/static/src/js/scrollup.js" />
+		<script type="text/javascript" src="/muk_website_scroll_up/static/lib/jquery-scrollup/jquery.scrollUp.js" />
+		<script type="text/javascript" src="/muk_website_scroll_up/static/src/js/scrollup.js" />
     </xpath>
 </template>
 </odoo>
