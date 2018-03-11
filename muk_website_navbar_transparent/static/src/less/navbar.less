@@ -30,6 +30,11 @@
 }
 
 @media screen and (min-width: @screen-sm-min) {
+	#wrapwrap > header + main > :not(#wrap),
+	#wrapwrap > header + main > #wrap > :first-child {
+    	padding-top: @muk_navbar_transparent_padding;
+	}
+	
 	.muk_navbar_transparent {
 		border: 0;
 		color: @muk_navbar_transparent_color;

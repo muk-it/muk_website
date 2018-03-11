@@ -1,9 +1,11 @@
 ==============
-MuK Scroll Up Button
+MuK Transparent Navigation Menu
 ==============
 
-Adds a button to the bottom of the page to jump back up to the top of the page.
-The button can be customized using the following attributes.
+Adds a option to the website customize menu to trigger the transparent navigation
+menu. The menu is fixed to the top of the website and will switch to a non
+transparent mode while scrolling. In mobile view the menu is in a non transparent
+mode by default.
 
 Installation
 ============
@@ -23,7 +25,8 @@ No additional configuration is needed to use this module.
 Usage
 =============
 
-Switch to your website and the scroll up button will appear on the bottom of your page.
+Switch to your website and the transparent navigation menu will appear on
+the bottom of your page.
 
 Credits
 =======

@@ -21,7 +21,7 @@ No additional configuration is needed to use this module.
 Usage
 ============
 
-Switch to your website and scroll up button will appear on the bottom of your page.
+Switch to your website and the scroll up button will appear on the bottom of your page.
 
 Credits
 ============
