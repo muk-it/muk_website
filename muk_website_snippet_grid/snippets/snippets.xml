@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--     
+	Copyright (C) 2017 MuK IT GmbH
+	
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as
+    published by the Free Software Foundation, either version 3 of the
+    License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>. 
+-->
+
+<odoo>
+
+<template id="snippet_grid_bar" inherit_id="website.snippets" name="Grid Bar">
+	<xpath expr="//div[@id='snippet_structure']" position="after">
+		<div id="snippet_grid" class="o_panel">
+			<div class="o_panel_header">
+				<i class="fa fa-th"></i>
+				Grid System
+			</div>
+			<div class="o_panel_body">
+	
+			</div>
+		</div>
+	</xpath>
+</template>
+
+<template id="snippet_grid_section_icon" inherit_id="snippet_grid_bar" name="Grid Section Snippet Icon">
+  <xpath expr="//div[@id='snippet_grid']/div[@class='o_panel_body']" position="inside">
+    <t t-snippet="muk_website_snippet_grid.snippet_grid_section"
+       t-thumbnail="/muk_website_snippet_grid/static/src/img/grid_section.png"/>
+  </xpath>
+</template>
+
+<template id="snippet_grid_container_icon" inherit_id="snippet_grid_bar" name="Grid Container Snippet Icon">
+  <xpath expr="//div[@id='snippet_grid']/div[@class='o_panel_body']" position="inside">
+    <t t-snippet="muk_website_snippet_grid.snippet_grid_container"
+       t-thumbnail="/muk_website_snippet_grid/static/src/img/grid_container.png"/>
+  </xpath>
+</template>
+
+<template id="snippet_grid_row_icon" inherit_id="snippet_grid_bar" name="Grid Row Snippet Icon">
+  <xpath expr="//div[@id='snippet_grid']/div[@class='o_panel_body']" position="inside">
+    <t t-snippet="muk_website_snippet_grid.snippet_grid_row"
+       t-thumbnail="/muk_website_snippet_grid/static/src/img/grid_row.png"/>
+  </xpath>
+</template>
+
+<template id="snippet_grid_column_icon" inherit_id="snippet_grid_bar" name="Grid Column Snippet Icon">
+  <xpath expr="//div[@id='snippet_grid']/div[@class='o_panel_body']" position="inside">
+    <t t-snippet="muk_website_snippet_grid.snippet_grid_column"
+       t-thumbnail="/muk_website_snippet_grid/static/src/img/grid_column.png"/>
+  </xpath>
+</template>
+
+</odoo>
