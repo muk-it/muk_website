@@ -39,7 +39,8 @@
     <xpath expr="//div[@data-js='background']" position="after">
         <div data-js='grid_row'
             data-selector=".grid_row"
-            data-drop-in="[class*='container'], [class*='container'] *:not(b):not(big):not(i):not(small):not(tt)
+            data-drop-in=".container, .container-fluid, .grid_column,
+            	[class*='container'] *:not(b):not(big):not(i):not(small):not(tt)
 				:not(abbr):not(acronym):not(cite):not(code):not(dfn):not(em):not(kbd):not(samp):not(var)
 				:not(a):not(bdo):not(br):not(img):not(map):not(object):not(q):not(script):not(sub):not(sup)
 				:not(button):not(input):not(label):not(select):not(textarea)">

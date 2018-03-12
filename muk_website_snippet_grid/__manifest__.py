@@ -30,7 +30,7 @@
         through a series of rows and columns that house
         your content.
     """,
-    "version": "11.0.1.0.0",
+    "version": "11.0.1.0.1",
     "category": "Website",
     "license": "AGPL-3",
     "website": "http://www.mukit.at",
