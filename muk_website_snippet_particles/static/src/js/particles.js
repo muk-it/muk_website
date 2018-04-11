@@ -17,7 +17,7 @@
 *
 **********************************************************************************/
 
-odoo.define('muk_theme_snippet_particles.frontend', function (require) {
+odoo.define('muk_website_snippet_particles.frontend', function (require) {
 'use strict';
 
 var base = require('web_editor.base');
@@ -159,7 +159,7 @@ base.ready().then(function () {
     });
     
     if($('#particles-js').length >= 1) {
-    	particlesJS.load('particles-js', '/muk_theme_snippet_particles/static/assets/particle.json', function() {
+    	particlesJS.load('particles-js', '/muk_website_snippet_particles/static/assets/particle.json', function() {
 		  console.log('callback - particles.js config loaded');
 		});
     }

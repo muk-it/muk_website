@@ -17,12 +17,12 @@
 *
 **********************************************************************************/
 
-odoo.define('muk_theme_snippet_particles.editor', function (require) {
+odoo.define('muk_website_snippet_particles.editor', function (require) {
 'use strict';
 
 var widget = require('web_editor.widget');
 var s_options = require('web_editor.snippets.options');
-var particles = require('muk_theme_snippet_particles.frontend');
+var particles = require('muk_website_snippet_particles.frontend');
 
 s_options.registry.snippet_particles_options = s_options.Class.extend({
     start: function () {
