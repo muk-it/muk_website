@@ -20,21 +20,21 @@
 <odoo>
 <template id="assets_frontend" name="Frontend Assets" inherit_id="website.assets_frontend">
 	<xpath expr="//link[last()]" position="after">
-		<link rel="stylesheet" href="/muk_theme_snippet_particles/static/src/less/particles.less" />
-		<link rel="stylesheet" href="/muk_theme_snippet_particles/static/src/less/background.less" />
+		<link rel="stylesheet" href="/muk_website_snippet_particles/static/src/less/particles.less" />
+		<link rel="stylesheet" href="/muk_website_snippet_particles/static/src/less/background.less" />
 	</xpath>
 	<xpath expr="//script[last()]" position="after">
-		<script type="text/javascript" src="/muk_theme_snippet_particles/static/lib/particles/particles.js" />
-		<script type="text/javascript" src="/muk_theme_snippet_particles/static/src/js/particles.js" />
+		<script type="text/javascript" src="/muk_website_snippet_particles/static/lib/particles/particles.js" />
+		<script type="text/javascript" src="/muk_website_snippet_particles/static/src/js/particles.js" />
     </xpath>
 </template>
 
 <template id="assets_editor" name="Editor Assets" inherit_id="website.assets_editor" active="True">
     <xpath expr="//link[last()]" position="after">
-		<link rel="stylesheet" href="/muk_theme_snippet_particles/static/src/less/options.less" />
+		<link rel="stylesheet" href="/muk_website_snippet_particles/static/src/less/options.less" />
 	</xpath>
     <xpath expr="//script[last()]" position="after">
-		<script type="text/javascript" src="/muk_theme_snippet_particles/static/src/js/options.js" />
+		<script type="text/javascript" src="/muk_website_snippet_particles/static/src/js/options.js" />
     </xpath>
 </template>
 </odoo>

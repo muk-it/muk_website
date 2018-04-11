@@ -92,8 +92,8 @@
 
 <template id="snippet_particles_bar" inherit_id="website.snippets" name="Particles Bar">
   <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
-    <t t-snippet="muk_theme_snippet_particles.snippet_particles"
-       t-thumbnail="/muk_theme_snippet_particles/static/src/img/block.png"/>
+    <t t-snippet="muk_website_snippet_particles.snippet_particles"
+       t-thumbnail="/muk_website_snippet_particles/static/src/img/block.png"/>
   </xpath>
 </template>
 
