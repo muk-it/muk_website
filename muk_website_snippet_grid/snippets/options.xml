@@ -552,6 +552,13 @@
 				<a href="#" class="dropdown-item" data-toggle-class="content"><i class="fa fa-code"/>Activate Content</a>
 	        </div>
 			
+			<div data-js="colorpicker" data-selector=".s_grid_container, .s_grid_row, .s_grid_column">
+		        <div class="dropdown-submenu">
+		            <a tabindex="-1" href="#" class="dropdown-item"><i class="fa fa-eyedropper"/>Color</a>
+		            <div class="dropdown-menu" role="menu"/>
+		        </div>
+		    </div>
+			
 	    </xpath>
 	</template>
 
