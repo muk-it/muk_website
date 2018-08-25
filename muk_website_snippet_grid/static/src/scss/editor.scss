@@ -1,0 +1,103 @@
+/**********************************************************************************
+* 
+*    Copyright (C) 2017 MuK IT GmbH
+*
+*    This program is free software: you can redistribute it and/or modify
+*    it under the terms of the GNU Affero General Public License as
+*    published by the Free Software Foundation, either version 3 of the
+*    License, or (at your option) any later version.
+*
+*    This program is distributed in the hope that it will be useful,
+*    but WITHOUT ANY WARRANTY; without even the implied warranty of
+*    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*    GNU Affero General Public License for more details.
+*
+*    You should have received a copy of the GNU Affero General Public License
+*    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*
+**********************************************************************************/
+
+%grid {
+	min-height: 250px;
+	position: relative;
+}
+
+%message-empty {
+  	top: 10px;
+	right: 10px;
+	display:flex;
+	flex-direction:row;
+	position: absolute;
+	font-size: 20px;
+	color: gray('700');
+	align-items: center;
+	justify-content: center;
+	border: 2px dashed gray('700');
+	width: #{"calc(100% - 20px)"};
+	height: #{"calc(100% - 20px)"};
+	@include gradient-y($white, gray('100'));
+}
+
+.editor_enable {
+	
+	.s_grid_section, .s_grid_container, .s_grid_row, .s_grid_column {
+		.oe_drop_zone.oe_insert {
+			height: 80px ! important;
+			margin: (-80px/2) 0;
+		}
+	}
+	
+	.s_grid_section {
+		@extend %grid;
+		
+		&:empty:before {
+		    @extend %message-empty;
+			content: "Drop Container Here!";
+		}
+	}
+	
+	.s_grid_container {
+		@extend %grid;
+		
+		&:empty:before {
+		    @extend %message-empty;
+			content: "Drop Rows Here!";
+		}
+	}
+	
+	.s_grid_row {
+		@extend %grid;
+		min-height: 150px;
+		
+		&:empty:before {
+		    @extend %message-empty;
+			content: "Drop Columns Here!";
+		}
+	}
+	
+	.s_grid_column {
+		@extend %grid;
+		min-height: 150px;
+		
+		&:empty:before {
+		    @extend %message-empty;
+			content: "Drop Content Here!";
+		}
+	}
+
+	.s_grid_break {
+		@extend %grid;
+		min-height: 15px;
+		
+		&:before {
+		    top: 5px;
+			right: 10px;
+		    content: "";
+		    position: absolute;
+		    background: gray('700');
+			width: #{"calc(100% - 20px)"};
+		    height: #{"calc(100% - 10px)"};
+		}
+	}
+
+}
