@@ -549,6 +549,7 @@
 	        </div>   
 	        
 	         <div data-selector=".s_grid_container, .s_grid_row, .s_grid_column">
+				<a href="#" class="dropdown-item" data-toggle-class="oe_structure"><i class="fa fa-code"/>Activate Structure</a>
 				<a href="#" class="dropdown-item" data-toggle-class="content"><i class="fa fa-code"/>Activate Content</a>
 	        </div>
 			

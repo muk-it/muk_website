@@ -20,7 +20,7 @@
 {
     'name': 'MuK Grid Snippets',
     'summary': 'Bootstrap Grid System',
-    'version': '12.0.2.0.0',
+    'version': '12.0.2.1.0',
     'category': 'Website',
     'license': 'AGPL-3',
     'author': 'MuK IT',
