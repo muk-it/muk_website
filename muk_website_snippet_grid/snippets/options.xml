@@ -417,6 +417,7 @@
     <xpath expr="//div[@data-js='background']" position="after">
         <div data-js='grid_content'
             data-selector=".grid_container, .grid_row, .grid_column">
+			<li data-toggle-class="oe_structure"><a href="#"><i class="fa fa-code"/>Activate Structure</a></li>
 			<li data-toggle-class="content"><a href="#"><i class="fa fa-code"/>Activate Content</a></li>
         </div>
     </xpath>
