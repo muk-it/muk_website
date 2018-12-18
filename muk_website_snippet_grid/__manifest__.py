@@ -31,6 +31,7 @@
     ],
     'depends': [
         'website',
+        'muk_web_editor_utils',
     ],
     'data': [
         'template/assets.xml',
