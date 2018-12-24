@@ -20,7 +20,7 @@
 {
     "name": "MuK Website Branding",
     "summary": """Branding Features""",
-    "version": "12.0.1.0.0",
+    "version": "12.0.1.0.1",
     "category": "Website",
     "license": "AGPL-3",
     "website": "http://www.mukit.at",
@@ -34,6 +34,7 @@
         "muk_web_branding",
     ],
     "data": [
+        "template/assets.xml",
         "template/layout.xml",
     ],
     "qweb": [
@@ -46,7 +47,7 @@
         "python": [],
         "bin": [],
     },
-    "auto_install": False,
+    'auto_install': True,
     "application": False,
     "installable": True,
 }

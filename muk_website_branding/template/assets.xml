@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--     
-	Copyright (C) 2017 MuK IT GmbH
+	Copyright (C) 2018 MuK IT GmbH
 	
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as
@@ -18,11 +18,13 @@
 -->
 
 <odoo>
-	<template id="brand_promotion" inherit_id="website.brand_promotion">
-	    <xpath expr="//div[hasclass('o_brand_promotion')]" position="after">
-	        <div class="mk_brand_promotion">
-	        	Created with <a target="_blank" class="badge badge-danger" href="http://www.odoo.com?utm_source=db&amp;utm_medium=website">Odoo</a>
-	        </div>
-	    </xpath>
+	
+	<template id="assets_frontend" name="Website Assets" inherit_id="web.assets_frontend">
+		<xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/muk_website_branding/static/src/scss/footer.scss"/>
+		</xpath>
+		<xpath expr="//script[last()]" position="after">
+		</xpath>
 	</template>
+	
 </odoo>
