@@ -19,7 +19,7 @@
 
 {
     "name": "MuK Website Branding",
-    "summary": """Branding Features""",
+    "summary": """Branding and Debranding""",
     "version": "12.0.1.0.1",
     "category": "Website",
     "license": "AGPL-3",
