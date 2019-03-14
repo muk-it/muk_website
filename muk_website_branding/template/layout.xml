@@ -25,4 +25,14 @@
 	        </div>
 	    </xpath>
 	</template>
+	
+	<template id="portal_record_sidebar" inherit_id="portal.portal_record_sidebar" name="Sidebar debranding" active="True" priority="99">
+		<xpath expr="//div[@id='sidebar_content']//div[hasclass('card-footer')]" position="replace">
+			<div class="card-footer small text-center text-muted border-top-0 pt-1 pb-1 d-none d-lg-block">
+				Powered by <a target="_blank" href="http://www.odoo.com?utm_source=db&amp;utm_medium=portal">
+				<img src="/web/binary/company_logo" alt="Logo" height="15"/></a>
+			</div>
+		</xpath>
+    </template>
+	
 </odoo>
