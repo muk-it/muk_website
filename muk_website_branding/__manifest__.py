@@ -20,7 +20,7 @@
 {
     "name": "MuK Website Branding",
     "summary": """Branding and Debranding""",
-    "version": "12.0.1.1.0",
+    "version": "12.0.1.1.1",
     "category": "Website",
     "license": "AGPL-3",
     "website": "http://www.mukit.at",
@@ -31,7 +31,7 @@
     ],
     "depends": [
         "website",
-        "muk_web_branding",
+        "muk_mail_branding",
     ],
     "data": [
         "template/assets.xml",
