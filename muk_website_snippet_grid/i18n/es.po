@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0alpha1\n"
+"Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-25 13:34+0000\n"
-"PO-Revision-Date: 2018-08-25 13:34+0000\n"
+"POT-Creation-Date: 2020-04-11 04:49+0000\n"
+"PO-Revision-Date: 2020-04-11 04:49+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,1128 +16,1134 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "<i class=\"fa fa-arrow-right\"/>Offset Options"
-msgstr ""
+msgstr "<i class=\"fa fa-arrow-right\"/>Opciones de Offset"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "<i class=\"fa fa-arrows\"/>No Gutters"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "<i class=\"fa fa-arrows-alt\"/>Auto Margin"
-msgstr ""
+msgstr "<i class=\"fa fa-arrows-alt\"/>Margen automático"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "<i class=\"fa fa-arrows-h\"/>Horizontal Alignment"
-msgstr ""
+msgstr "<i class=\"fa fa-arrows-h\"/>Alineación horizontal"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "<i class=\"fa fa-arrows-v\"/>Vertical Alignment"
-msgstr ""
+msgstr "<i class=\"fa fa-arrows-h\"/>Alineación Vertical"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "<i class=\"fa fa-bar\"/>Break Options"
-msgstr ""
+msgstr "<i class=\"fa fa-bar\"/>Opciones de interrupción"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "<i class=\"fa fa-code\"/>Activate Content"
-msgstr ""
+msgstr "<i class=\"fa fa-code\"/>Activar contenido"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+msgid "<i class=\"fa fa-code\"/>Activate Structure"
+msgstr "<i class=\"fa fa-code\"/>Activar estructura"
+
+#. module: muk_website_snippet_grid
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "<i class=\"fa fa-columns\"/>Column Options"
-msgstr ""
+msgstr "<i class=\"fa fa-columns\"/>Opciones de Columna"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "<i class=\"fa fa-eyedropper\"/>Color"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "<i class=\"fa fa-sort\"/>Order Options"
-msgstr ""
+msgstr "<i class=\"fa fa-sort\"/>Opciones de pedido"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "<i class=\"fa fa-stop\"/>Container Options"
-msgstr ""
+msgstr "<i class=\"fa fa-stop\"/>Opciones de contenedor"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_bar
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_bar
 msgid "<i class=\"fa fa-th\"/>\n"
 "					Grid System"
-msgstr ""
+msgstr "<i class=\"fa fa-th\"/>\n"
+"					Sistema de Grilla"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Always"
-msgstr ""
+msgstr "Siempre"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Around"
-msgstr ""
+msgstr "Alrededor"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Auto Left"
-msgstr ""
+msgstr "Auto izquierda"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Auto Right"
-msgstr ""
+msgstr "Auto Derecha"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Baseline"
-msgstr ""
+msgstr "Linea Base"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Between"
-msgstr ""
+msgstr "Entre"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Center"
-msgstr ""
+msgstr "Centro"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column"
-msgstr ""
+msgstr "Columna"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-1"
-msgstr ""
+msgstr "Columna-1"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-10"
-msgstr ""
+msgstr "Columna-10"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-11"
-msgstr ""
+msgstr "Columna-11"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-12"
-msgstr ""
+msgstr "Columna-12"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-2"
-msgstr ""
+msgstr "Columna-2"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-3"
-msgstr ""
+msgstr "Columna-3"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-4"
-msgstr ""
+msgstr "Columna-4"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-5"
-msgstr ""
+msgstr "Columna-5"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-6"
-msgstr ""
+msgstr "Columna-6"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-7"
-msgstr ""
+msgstr "Columna-7"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-8"
-msgstr ""
+msgstr "Columna-8"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-9"
-msgstr ""
+msgstr "Columna-9"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-Auto"
-msgstr ""
+msgstr "Columna-Auto"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-LG"
-msgstr ""
+msgstr "Columna-LG"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-LG-1"
-msgstr ""
+msgstr "Columna-LG-1"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-LG-10"
-msgstr ""
+msgstr "Columna-LG-10"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-LG-11"
-msgstr ""
+msgstr "Columna-LG-11"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-LG-12"
-msgstr ""
+msgstr "Columna-LG-12"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-LG-2"
-msgstr ""
+msgstr "Columna-LG-2"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-LG-3"
-msgstr ""
+msgstr "Columna-LG-3"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-LG-4"
-msgstr ""
+msgstr "Columna-LG-4"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-LG-5"
-msgstr ""
+msgstr "Columna-LG-5"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-LG-6"
-msgstr ""
+msgstr "Columna-LG-6"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-LG-7"
-msgstr ""
+msgstr "Columna-LG-7"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-LG-8"
-msgstr ""
+msgstr "Columna-LG-8"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-LG-9"
-msgstr ""
+msgstr "Columna-LG-9"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-LG-Auto"
-msgstr ""
+msgstr "Columna-LG-Auto"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-MD"
-msgstr ""
+msgstr "Columna-MD"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-MD-1"
-msgstr ""
+msgstr "Columna-MD-1"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-MD-10"
-msgstr ""
+msgstr "Columna-MD-10"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-MD-11"
-msgstr ""
+msgstr "Columna-MD-11"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-MD-12"
-msgstr ""
+msgstr "Columna-MD-12"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-MD-2"
-msgstr ""
+msgstr "Columna-MD-2"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-MD-3"
-msgstr ""
+msgstr "Columna-MD-3"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-MD-4"
-msgstr ""
+msgstr "Columna-MD-4"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-MD-5"
-msgstr ""
+msgstr "Columna-MD-5"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-MD-6"
-msgstr ""
+msgstr "Columna-MD-6"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-MD-7"
-msgstr ""
+msgstr "Columna-MD-7"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-MD-8"
-msgstr ""
+msgstr "Columna-MD-8"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-MD-9"
-msgstr ""
+msgstr "Columna-MD-9"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-MD-Auto"
-msgstr ""
+msgstr "Columna-MD-Auto"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-SM"
-msgstr ""
+msgstr "Columna-SM"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-SM-1"
-msgstr ""
+msgstr "Columna-SM-1"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-SM-10"
-msgstr ""
+msgstr "Columna-SM-10"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-SM-11"
-msgstr ""
+msgstr "Columna-SM-11"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-SM-12"
-msgstr ""
+msgstr "Columna-SM-12"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-SM-2"
-msgstr ""
+msgstr "Columna-SM-2"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-SM-3"
-msgstr ""
+msgstr "Columna-SM-3"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-SM-4"
-msgstr ""
+msgstr "Columna-SM-4"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-SM-5"
-msgstr ""
+msgstr "Columna-SM-5"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-SM-6"
-msgstr ""
+msgstr "Columna-SM-6"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-SM-7"
-msgstr ""
+msgstr "Columna-SM-7"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-SM-8"
-msgstr ""
+msgstr "Columna-SM-8"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-SM-9"
-msgstr ""
+msgstr "Columna-SM-9"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-SM-Auto"
-msgstr ""
+msgstr "Columna-SM-Auto"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-XL"
-msgstr ""
+msgstr "Columna-XL"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-XL-1"
-msgstr ""
+msgstr "Columna-XL-1"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-XL-10"
-msgstr ""
+msgstr "Columna-XL-10"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-XL-11"
-msgstr ""
+msgstr "Columna-XL-11"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-XL-12"
-msgstr ""
+msgstr "Columna-XL-12"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-XL-2"
-msgstr ""
+msgstr "Columna-XL-2"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-XL-3"
-msgstr ""
+msgstr "Columna-XL-3"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-XL-4"
-msgstr ""
+msgstr "Columna-XL-4"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-XL-5"
-msgstr ""
+msgstr "Columna-XL-5"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-XL-6"
-msgstr ""
+msgstr "Columna-XL-6"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-XL-7"
-msgstr ""
+msgstr "Columna-XL-7"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-XL-8"
-msgstr ""
+msgstr "Columna-XL-8"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-XL-9"
-msgstr ""
+msgstr "Columna-XL-9"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Column-XL-Auto"
-msgstr ""
+msgstr "Columna-XL-Auto"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Container"
-msgstr ""
+msgstr "Contenedor"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "End"
-msgstr ""
+msgstr "Fin"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Extra Large"
-msgstr ""
+msgstr "Extra grande"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Extra Small"
-msgstr ""
+msgstr "Extra pequeño"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Fluid Container"
-msgstr ""
+msgstr "Contenedor Fluido"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Large"
-msgstr ""
+msgstr "Grande"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Medium"
-msgstr ""
+msgstr "Media"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-1"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-10"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-11"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-12"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-2"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-3"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-4"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-5"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-6"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-7"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-8"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-9"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-LG-0"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-LG-1"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-LG-10"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-LG-11"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-LG-12"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-LG-2"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-LG-3"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-LG-4"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-LG-5"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-LG-6"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-LG-7"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-LG-8"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-LG-9"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-MD-0"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-MD-1"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-MD-10"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-MD-11"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-MD-12"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-MD-2"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-MD-3"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-MD-4"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-MD-5"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-MD-6"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-MD-7"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-MD-8"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-MD-9"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-SM-0"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-SM-1"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-SM-10"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-SM-11"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-SM-12"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-SM-2"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-SM-3"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-SM-4"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-SM-5"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-SM-6"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-SM-7"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-SM-8"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-SM-9"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-XL-0"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-XL-1"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-XL-10"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-XL-11"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-XL-12"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-XL-2"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-XL-3"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-XL-4"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-XL-5"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-XL-6"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-XL-7"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-XL-8"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Offset-XL-9"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order First"
-msgstr ""
+msgstr "Orden primero"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order Last"
-msgstr ""
+msgstr "Último orden"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-1"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-10"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-11"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-12"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-2"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-3"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-4"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-5"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-6"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-7"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-8"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-9"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-LG-1"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-LG-10"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-LG-11"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-LG-12"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-LG-2"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-LG-3"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-LG-4"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-LG-5"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-LG-6"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-LG-7"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-LG-8"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-LG-9"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-MD-1"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-MD-10"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-MD-11"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-MD-12"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-MD-2"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-MD-3"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-MD-4"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-MD-5"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-MD-6"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-MD-7"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-MD-8"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-MD-9"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-SM-1"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-SM-10"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-SM-11"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-SM-12"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-SM-2"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-SM-3"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-SM-4"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-SM-5"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-SM-6"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-SM-7"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-SM-8"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-SM-9"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-XL-1"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-XL-10"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-XL-11"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-XL-12"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-XL-2"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-XL-3"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-XL-4"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-XL-5"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-XL-6"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-XL-7"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-XL-8"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Order-XL-9"
 msgstr ""
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Small"
-msgstr ""
+msgstr "Pequeño"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Start"
-msgstr ""
+msgstr "Iniciar"
 
 #. module: muk_website_snippet_grid
-#: model:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
+#: model_terms:ir.ui.view,arch_db:muk_website_snippet_grid.snippet_grid_options
 msgid "Stretch"
-msgstr ""
+msgstr "Extender"
 
