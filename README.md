@@ -1,9 +1,7 @@
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
-[![Build Status](https://travis-ci.org/muk-it/muk_website.svg?branch=12.0)](https://travis-ci.org/muk-it/muk_website)
-[![codecov](https://codecov.io/gh/muk-it/muk_website/branch/12.0/graph/badge.svg)](https://codecov.io/gh/muk-it/muk_website)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d2a8b92329924cc8a5c1121282341145)](https://www.codacy.com/app/keshrath/muk_website?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=muk-it/muk_website&amp;utm_campaign=Badge_Grade)
-[![Weblate](https://weblate.mukit.at/widgets/website-12/-/svg-badge.svg)](https://weblate.mukit.at/projects/website-12/)
-[![Demo](https://img.shields.io/badge/demo-Try%20me-243742.svg)](https://mukit.at/r/SgN)
+[![PyPI](https://img.shields.io/badge/Weblate-Install%20me-5d8da8.svg)](https://nexus.mukit.at/#browse/browse:odoo)
+[![Weblate](https://img.shields.io/badge/Weblate-Translate%20me-0094E9.svg)](https://weblate.mukit.at)
+[![Website](https://img.shields.io/badge/Website-Open%20me-243742.svg)](https://mukit.at/r/SgN)
 
 # MuK Odoo Website Modules
 
@@ -19,10 +17,7 @@ mode and update the list by clicking on the "Update Apps List" link. Now
 install the module by clicking on the install button.
 
 Another way to install this module is via the package management for
-Python ([PyPI]).
-
-To install our modules using the package manager make sure
-[odoo-autodiscover] is installed correctly. Then open a console and
+Python ([pypi]). Then open a console and
 install the module by entering the following command:
 
 `pip install --extra-index-url https://nexus.mukit.at/repository/odoo/simple <module>`
@@ -36,7 +31,7 @@ underscores are replaced by a dash.
 
 **Example:**
 
-`sudo -H pip3 install --extra-index-url https://nexus.mukit.at/repository/odoo/simple odoo11-addon-muk-utils`
+`sudo -H pip3 install --extra-index-url https://nexus.mukit.at/repository/odoo/simple odoo13-addon-muk-utils`
 
 Once the installation has been successfully completed, the app is
 already in the correct folder. Log on to your Odoo server and go to the
@@ -64,8 +59,6 @@ console:
 When the process is finished, restart your server and update the
 application in Odoo, just like you would normally.
 
-  [PyPI]: https://pypi.org/project/pip/
-  [odoo-autodiscover]: https://pypi.org/project/odoo-autodiscover/
+  [pypi]: https://pypi.org/user/mukit/
   [repository]: https://nexus.mukit.at/#browse/browse:odoo
   [website]: https://mukit.at/page/open-source
-  [MuK IT]: https://www.mukit.at/
