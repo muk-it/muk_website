@@ -17,7 +17,7 @@ mode and update the list by clicking on the "Update Apps List" link. Now
 install the module by clicking on the install button.
 
 Another way to install this module is via the package management for
-Python ([pypi]). Then open a console and
+Python ([PyPI]). Then open a console and
 install the module by entering the following command:
 
 `pip install --extra-index-url https://nexus.mukit.at/repository/odoo/simple <module>`
@@ -59,6 +59,6 @@ console:
 When the process is finished, restart your server and update the
 application in Odoo, just like you would normally.
 
-  [pypi]: https://pypi.org/user/mukit/
+  [PyPI]: https://pypi.org/user/mukit/
   [repository]: https://nexus.mukit.at/#browse/browse:odoo
   [website]: https://mukit.at/page/open-source
