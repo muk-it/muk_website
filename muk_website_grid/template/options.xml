@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+<template id="snippet_options" inherit_id="website.snippet_options">
+ 	<xpath expr="." position="inside">
+        <div data-selector=".s_grid_container" data-drop-in=".s_grid_section">
+        	<we-select string="Container Options" data-no-preview="true">
+        		<we-button string="Default Container" data-select-class="container"/>
+        		<we-button string="Fluid Container" data-select-class="container-fluid"/>
+	    	</we-select>
+        </div>
+        <div data-selector=".s_grid_row" data-drop-in=".s_grid_container, .s_grid_column">
+        	<we-checkbox string="No Gutters" data-select-class="no-gutters"/>
+        	<we-collapse>
+	            <we-row string="Vert. Alignment" title="Vertical Alignment">
+	                <we-button-group>
+			            <we-button title="Align Top"
+							data-select-class="align-items-start"
+							data-img="/website/static/src/img/snippets_options/align_top.svg"/>
+			            <we-button title="Align Middle"
+							data-select-class="align-items-center"
+							data-img="/website/static/src/img/snippets_options/align_middle.svg"/>
+			            <we-button title="Align Bottom"
+							data-select-class="align-items-end"
+							data-img="/website/static/src/img/snippets_options/align_bottom.svg"/>
+			            <we-button title="Stretch to Equal Height"
+							data-select-class="align-items-stretch"
+							data-img="/website/static/src/img/snippets_options/align_stretch.svg"/>
+			            <we-button title="None" data-select-class="">
+				            <i class="fa fa-fw fa-ban"/>
+				        </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Small">
+	            	<we-button-group>
+			            <we-button title="Align Top"
+							data-select-class="align-items-sm-start"
+							data-img="/website/static/src/img/snippets_options/align_top.svg"/>
+			            <we-button title="Align Middle"
+							data-select-class="align-items-sm-center"
+							data-img="/website/static/src/img/snippets_options/align_middle.svg"/>
+			            <we-button title="Align Bottom"
+							data-select-class="align-items-sm-end"
+							data-img="/website/static/src/img/snippets_options/align_bottom.svg"/>
+			            <we-button title="Stretch to Equal Height"
+							data-select-class="align-items-sm-stretch"
+							data-img="/website/static/src/img/snippets_options/align_stretch.svg"/>
+			            <we-button title="None" data-select-class="">
+				            <i class="fa fa-fw fa-ban"/>
+				        </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Medium">
+	            	<we-button-group>
+			            <we-button title="Align Top"
+							data-select-class="align-items-md-start"
+							data-img="/website/static/src/img/snippets_options/align_top.svg"/>
+			            <we-button title="Align Middle"
+							data-select-class="align-items-md-center"
+							data-img="/website/static/src/img/snippets_options/align_middle.svg"/>
+			            <we-button title="Align Bottom"
+							data-select-class="align-items-md-end"
+							data-img="/website/static/src/img/snippets_options/align_bottom.svg"/>
+			            <we-button title="Stretch to Equal Height"
+							data-select-class="align-items-md-stretch"
+							data-img="/website/static/src/img/snippets_options/align_stretch.svg"/>
+			            <we-button title="None" data-select-class="">
+				            <i class="fa fa-fw fa-ban"/>
+				        </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Large">
+	            	<we-button-group>
+			            <we-button title="Align Top"
+							data-select-class="align-items-lg-start"
+							data-img="/website/static/src/img/snippets_options/align_top.svg"/>
+			            <we-button title="Align Middle"
+							data-select-class="align-items-lg-center"
+							data-img="/website/static/src/img/snippets_options/align_middle.svg"/>
+			            <we-button title="Align Bottom"
+							data-select-class="align-items-lg-end"
+							data-img="/website/static/src/img/snippets_options/align_bottom.svg"/>
+			            <we-button title="Stretch to Equal Height"
+							data-select-class="align-items-lg-stretch"
+							data-img="/website/static/src/img/snippets_options/align_stretch.svg"/>
+			            <we-button title="None" data-select-class="">
+				            <i class="fa fa-fw fa-ban"/>
+				        </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Extra Large">
+	            	<we-button-group>
+			            <we-button title="Align Top"
+							data-select-class="align-items-xl-start"
+							data-img="/website/static/src/img/snippets_options/align_top.svg"/>
+			            <we-button title="Align Middle"
+							data-select-class="align-items-xl-center"
+							data-img="/website/static/src/img/snippets_options/align_middle.svg"/>
+			            <we-button title="Align Bottom"
+							data-select-class="align-items-xl-end"
+							data-img="/website/static/src/img/snippets_options/align_bottom.svg"/>
+			            <we-button title="Stretch Content"
+							data-select-class="align-items-xl-stretch"
+							data-img="/website/static/src/img/snippets_options/align_stretch.svg"/>
+			            <we-button title="None" data-select-class="">
+				            <i class="fa fa-fw fa-ban"/>
+				        </we-button>
+			    	</we-button-group>
+	            </we-row>
+	        </we-collapse>
+        	<we-collapse>
+	            <we-row string="Horiz. Alignment" title="Horizontal Alignment">
+	                <we-button-group>
+			            <we-button title="Align Left" data-select-class="justify-content-start">
+			            	<i class="fa fa-fw fa-align-left"/>
+			            </we-button>
+			            <we-button title="Align Right" data-select-class="justify-content-end">
+			            	<i class="fa fa-fw fa-align-right"/>
+			            </we-button>
+			            <we-button title="Align Center" data-select-class="justify-content-center">
+			            	<i class="fa fa-fw fa-align-center"/>
+			            </we-button>
+			            <we-button title="Align Between" data-select-class="justify-content-center">
+			            	<i class="fa fa-fw fa-align-justify"/>
+			            </we-button>
+			            <we-button title="Align Around" data-select-class="justify-content-center">
+			            	<i class="fa fa-fw fa-arrows-alt"/>
+			            </we-button>
+			            <we-button title="None" data-select-class="">
+				            <i class="fa fa-fw fa-ban"/>
+				        </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Small">
+	                <we-button-group>
+			            <we-button title="Align Left" data-select-class="justify-content-sm-start">
+			            	<i class="fa fa-fw fa-align-left"/>
+			            </we-button>
+			            <we-button title="Align Right" data-select-class="justify-content-sm-end">
+			            	<i class="fa fa-fw fa-align-right"/>
+			            </we-button>
+			            <we-button title="Align Center" data-select-class="justify-content-sm-center">
+			            	<i class="fa fa-fw fa-align-center"/>
+			            </we-button>
+			            <we-button title="Align Between" data-select-class="justify-content-sm-center">
+			            	<i class="fa fa-fw fa-align-justify"/>
+			            </we-button>
+			            <we-button title="Align Around" data-select-class="justify-content-sm-center">
+			            	<i class="fa fa-fw fa-arrows-alt"/>
+			            </we-button>
+			            <we-button title="None" data-select-class="">
+				            <i class="fa fa-fw fa-ban"/>
+				        </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Medium">
+	                <we-button-group>
+			            <we-button title="Align Left" data-select-class="justify-content-md-start">
+			            	<i class="fa fa-fw fa-align-left"/>
+			            </we-button>
+			            <we-button title="Align Right" data-select-class="justify-content-md-end">
+			            	<i class="fa fa-fw fa-align-right"/>
+			            </we-button>
+			            <we-button title="Align Center" data-select-class="justify-content-md-center">
+			            	<i class="fa fa-fw fa-align-center"/>
+			            </we-button>
+			            <we-button title="Align Between" data-select-class="justify-content-md-center">
+			            	<i class="fa fa-fw fa-align-justify"/>
+			            </we-button>
+			            <we-button title="Align Around" data-select-class="justify-content-md-center">
+			            	<i class="fa fa-fw fa-arrows-alt"/>
+			            </we-button>
+			            <we-button title="None" data-select-class="">
+				            <i class="fa fa-fw fa-ban"/>
+				        </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Large">
+	                <we-button-group>
+			            <we-button title="Align Left" data-select-class="justify-content-lg-start">
+			            	<i class="fa fa-fw fa-align-left"/>
+			            </we-button>
+			            <we-button title="Align Right" data-select-class="justify-content-lg-end">
+			            	<i class="fa fa-fw fa-align-right"/>
+			            </we-button>
+			            <we-button title="Align Center" data-select-class="justify-content-lg-center">
+			            	<i class="fa fa-fw fa-align-center"/>
+			            </we-button>
+			            <we-button title="Align Between" data-select-class="justify-content-lg-center">
+			            	<i class="fa fa-fw fa-align-justify"/>
+			            </we-button>
+			            <we-button title="Align Around" data-select-class="justify-content-lg-center">
+			            	<i class="fa fa-fw fa-arrows-alt"/>
+			            </we-button>
+			            <we-button title="None" data-select-class="">
+				            <i class="fa fa-fw fa-ban"/>
+				        </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Extra Large">
+	                <we-button-group>
+			            <we-button title="Align Left" data-select-class="justify-content-xl-start">
+			            	<i class="fa fa-fw fa-align-left"/>
+			            </we-button>
+			            <we-button title="Align Right" data-select-class="justify-content-xl-end">
+			            	<i class="fa fa-fw fa-align-right"/>
+			            </we-button>
+			            <we-button title="Align Center" data-select-class="justify-content-xl-center">
+			            	<i class="fa fa-fw fa-align-center"/>
+			            </we-button>
+			            <we-button title="Align Between" data-select-class="justify-content-xl-center">
+			            	<i class="fa fa-fw fa-align-justify"/>
+			            </we-button>
+			            <we-button title="Align Around" data-select-class="justify-content-xl-center">
+			            	<i class="fa fa-fw fa-arrows-alt"/>
+			            </we-button>
+			            <we-button title="None" data-select-class="">
+				            <i class="fa fa-fw fa-ban"/>
+				        </we-button>
+			    	</we-button-group>
+	            </we-row>
+	        </we-collapse>
+        </div>
+        <div data-selector=".s_grid_column" data-drop-in=".s_grid_row">
+        	<we-collapse>
+	            <we-row string="Vert. Alignment" title="Vertical Alignment">
+	                <we-button-group>
+			            <we-button title="Align Top"
+							data-select-class="align-self-start"
+							data-img="/website/static/src/img/snippets_options/align_top.svg"/>
+			            <we-button title="Align Middle"
+							data-select-class="align-self-center"
+							data-img="/website/static/src/img/snippets_options/align_middle.svg"/>
+			            <we-button title="Align Bottom"
+							data-select-class="align-self-end"
+							data-img="/website/static/src/img/snippets_options/align_bottom.svg"/>
+			            <we-button title="Stretch to Equal Height"
+							data-select-class="align-self-stretch"
+							data-img="/website/static/src/img/snippets_options/align_stretch.svg"/>
+			            <we-button title="None" data-select-class="">
+				            <i class="fa fa-fw fa-ban"/>
+				        </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Small">
+	            	<we-button-group>
+			            <we-button title="Align Top"
+							data-select-class="align-self-sm-start"
+							data-img="/website/static/src/img/snippets_options/align_top.svg"/>
+			            <we-button title="Align Middle"
+							data-select-class="align-self-sm-center"
+							data-img="/website/static/src/img/snippets_options/align_middle.svg"/>
+			            <we-button title="Align Bottom"
+							data-select-class="align-self-sm-end"
+							data-img="/website/static/src/img/snippets_options/align_bottom.svg"/>
+			            <we-button title="Stretch to Equal Height"
+							data-select-class="align-self-sm-stretch"
+							data-img="/website/static/src/img/snippets_options/align_stretch.svg"/>
+			            <we-button title="None" data-select-class="">
+				            <i class="fa fa-fw fa-ban"/>
+				        </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Medium">
+	            	<we-button-group>
+			            <we-button title="Align Top"
+							data-select-class="align-self-md-start"
+							data-img="/website/static/src/img/snippets_options/align_top.svg"/>
+			            <we-button title="Align Middle"
+							data-select-class="align-self-md-center"
+							data-img="/website/static/src/img/snippets_options/align_middle.svg"/>
+			            <we-button title="Align Bottom"
+							data-select-class="align-self-md-end"
+							data-img="/website/static/src/img/snippets_options/align_bottom.svg"/>
+			            <we-button title="Stretch to Equal Height"
+							data-select-class="align-self-md-stretch"
+							data-img="/website/static/src/img/snippets_options/align_stretch.svg"/>
+			            <we-button title="None" data-select-class="">
+				            <i class="fa fa-fw fa-ban"/>
+				        </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Large">
+	            	<we-button-group>
+			            <we-button title="Align Top"
+							data-select-class="align-self-lg-start"
+							data-img="/website/static/src/img/snippets_options/align_top.svg"/>
+			            <we-button title="Align Middle"
+							data-select-class="align-self-lg-center"
+							data-img="/website/static/src/img/snippets_options/align_middle.svg"/>
+			            <we-button title="Align Bottom"
+							data-select-class="align-self-lg-end"
+							data-img="/website/static/src/img/snippets_options/align_bottom.svg"/>
+			            <we-button title="Stretch to Equal Height"
+							data-select-class="align-self-lg-stretch"
+							data-img="/website/static/src/img/snippets_options/align_stretch.svg"/>
+			            <we-button title="None" data-select-class="">
+				            <i class="fa fa-fw fa-ban"/>
+				        </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Extra Large">
+	            	<we-button-group>
+			            <we-button title="Align Top"
+							data-select-class="align-self-xl-start"
+							data-img="/website/static/src/img/snippets_options/align_top.svg"/>
+			            <we-button title="Align Middle"
+							data-select-class="align-self-xl-center"
+							data-img="/website/static/src/img/snippets_options/align_middle.svg"/>
+			            <we-button title="Align Bottom"
+							data-select-class="align-self-xl-end"
+							data-img="/website/static/src/img/snippets_options/align_bottom.svg"/>
+			            <we-button title="Stretch Content"
+							data-select-class="align-self-xl-stretch"
+							data-img="/website/static/src/img/snippets_options/align_stretch.svg"/>
+			            <we-button title="None" data-select-class="">
+				            <i class="fa fa-fw fa-ban"/>
+				        </we-button>
+			    	</we-button-group>
+	            </we-row>
+	        </we-collapse>
+        	<we-collapse>
+	            <we-row string="Column Width">
+	            	 <we-select data-no-preview="true">
+			            <we-button data-select-class="col">Auto</we-button>
+			            <we-button data-select-class="col-1">Column-1</we-button>
+			            <we-button data-select-class="col-2">Column-2</we-button>
+			            <we-button data-select-class="col-3">Column-3</we-button>
+			            <we-button data-select-class="col-4">Column-4</we-button>
+			            <we-button data-select-class="col-5">Column-5</we-button>
+			            <we-button data-select-class="col-6">Column-6</we-button>
+			            <we-button data-select-class="col-7">Column-7</we-button>
+			            <we-button data-select-class="col-8">Column-8</we-button>
+			            <we-button data-select-class="col-9">Column-9</we-button>
+			            <we-button data-select-class="col-10">Column-10</we-button>
+			            <we-button data-select-class="col-11">Column-11</we-button>
+			            <we-button data-select-class="col-12">Column-12</we-button>
+			        </we-select>
+	            </we-row>
+	            <we-row string="Small">
+	            	 <we-select data-no-preview="true">
+			            <we-button data-select-class="">None</we-button>
+			            <we-button data-select-class="col-sm">Auto</we-button>
+			            <we-button data-select-class="col-sm-1">Column-1</we-button>
+			            <we-button data-select-class="col-sm-2">Column-2</we-button>
+			            <we-button data-select-class="col-sm-3">Column-3</we-button>
+			            <we-button data-select-class="col-sm-4">Column-4</we-button>
+			            <we-button data-select-class="col-sm-5">Column-5</we-button>
+			            <we-button data-select-class="col-sm-6">Column-6</we-button>
+			            <we-button data-select-class="col-sm-7">Column-7</we-button>
+			            <we-button data-select-class="col-sm-8">Column-8</we-button>
+			            <we-button data-select-class="col-sm-9">Column-9</we-button>
+			            <we-button data-select-class="col-sm-10">Column-10</we-button>
+			            <we-button data-select-class="col-sm-11">Column-11</we-button>
+			            <we-button data-select-class="col-sm-12">Column-12</we-button>
+			        </we-select>
+	            </we-row>
+	            <we-row string="Medium">
+	            	 <we-select data-no-preview="true">
+			            <we-button data-select-class="">None</we-button>
+			            <we-button data-select-class="col-md">Auto</we-button>
+			            <we-button data-select-class="col-md-1">Column-1</we-button>
+			            <we-button data-select-class="col-md-2">Column-2</we-button>
+			            <we-button data-select-class="col-md-3">Column-3</we-button>
+			            <we-button data-select-class="col-md-4">Column-4</we-button>
+			            <we-button data-select-class="col-md-5">Column-5</we-button>
+			            <we-button data-select-class="col-md-6">Column-6</we-button>
+			            <we-button data-select-class="col-md-7">Column-7</we-button>
+			            <we-button data-select-class="col-md-8">Column-8</we-button>
+			            <we-button data-select-class="col-md-9">Column-9</we-button>
+			            <we-button data-select-class="col-md-10">Column-10</we-button>
+			            <we-button data-select-class="col-md-11">Column-11</we-button>
+			            <we-button data-select-class="col-md-12">Column-12</we-button>
+			        </we-select>
+	            </we-row>
+	            <we-row string="Large">
+	            	 <we-select data-no-preview="true">
+			            <we-button data-select-class="">None</we-button>
+			            <we-button data-select-class="col-lg">Auto</we-button>
+			            <we-button data-select-class="col-lg-1">Column-1</we-button>
+			            <we-button data-select-class="col-lg-2">Column-2</we-button>
+			            <we-button data-select-class="col-lg-3">Column-3</we-button>
+			            <we-button data-select-class="col-lg-4">Column-4</we-button>
+			            <we-button data-select-class="col-lg-5">Column-5</we-button>
+			            <we-button data-select-class="col-lg-6">Column-6</we-button>
+			            <we-button data-select-class="col-lg-7">Column-7</we-button>
+			            <we-button data-select-class="col-lg-8">Column-8</we-button>
+			            <we-button data-select-class="col-lg-9">Column-9</we-button>
+			            <we-button data-select-class="col-lg-10">Column-10</we-button>
+			            <we-button data-select-class="col-lg-11">Column-11</we-button>
+			            <we-button data-select-class="col-lg-12">Column-12</we-button>
+			        </we-select>
+	            </we-row>
+	            <we-row string="Extra Large">
+	            	 <we-select data-no-preview="true">
+			            <we-button data-select-class="">None</we-button>
+			            <we-button data-select-class="col-xl">Auto</we-button>
+			            <we-button data-select-class="col-xl-1">Column-1</we-button>
+			            <we-button data-select-class="col-xl-2">Column-2</we-button>
+			            <we-button data-select-class="col-xl-3">Column-3</we-button>
+			            <we-button data-select-class="col-xl-4">Column-4</we-button>
+			            <we-button data-select-class="col-xl-5">Column-5</we-button>
+			            <we-button data-select-class="col-xl-6">Column-6</we-button>
+			            <we-button data-select-class="col-xl-7">Column-7</we-button>
+			            <we-button data-select-class="col-xl-8">Column-8</we-button>
+			            <we-button data-select-class="col-xl-9">Column-9</we-button>
+			            <we-button data-select-class="col-xl-10">Column-10</we-button>
+			            <we-button data-select-class="col-xl-11">Column-11</we-button>
+			            <we-button data-select-class="col-xl-12">Column-12</we-button>
+			        </we-select>
+	            </we-row>
+	        </we-collapse>
+        	<we-button-group string="Column Order">
+	            <we-button title="Order First" data-select-class="order-first">
+	            	<i class="fa fa-fw fa-chevron-left"/>
+		        </we-button>
+	            <we-button title="Order Last" data-select-class="order-last">
+	            	<i class="fa fa-fw fa-chevron-right"/>
+		        </we-button>
+	    	</we-button-group>
+        	<we-collapse>
+	            <we-row string="Column Priority">
+	            	 <we-select data-no-preview="true">
+			            <we-button data-select-class="">None</we-button>
+			            <we-button data-select-class="order-1">Order-1</we-button>
+			            <we-button data-select-class="order-2">Order-2</we-button>
+			            <we-button data-select-class="order-3">Order-3</we-button>
+			            <we-button data-select-class="order-4">Order-4</we-button>
+			            <we-button data-select-class="order-5">Order-5</we-button>
+			            <we-button data-select-class="order-6">Order-6</we-button>
+			            <we-button data-select-class="order-7">Order-7</we-button>
+			            <we-button data-select-class="order-8">Order-8</we-button>
+			            <we-button data-select-class="order-9">Order-9</we-button>
+			            <we-button data-select-class="order-10">Order-10</we-button>
+			            <we-button data-select-class="order-11">Order-11</we-button>
+			            <we-button data-select-class="order-12">Order-12</we-button>
+			        </we-select>
+	            </we-row>
+	            <we-row string="Small">
+	            	 <we-select data-no-preview="true">
+			            <we-button data-select-class="">None</we-button>
+			            <we-button data-select-class="order-sm-1">Order-1</we-button>
+			            <we-button data-select-class="order-sm-2">Order-2</we-button>
+			            <we-button data-select-class="order-sm-3">Order-3</we-button>
+			            <we-button data-select-class="order-sm-4">Order-4</we-button>
+			            <we-button data-select-class="order-sm-5">Order-5</we-button>
+			            <we-button data-select-class="order-sm-6">Order-6</we-button>
+			            <we-button data-select-class="order-sm-7">Order-7</we-button>
+			            <we-button data-select-class="order-sm-8">Order-8</we-button>
+			            <we-button data-select-class="order-sm-9">Order-9</we-button>
+			            <we-button data-select-class="order-sm-10">Order-10</we-button>
+			            <we-button data-select-class="order-sm-11">Order-11</we-button>
+			            <we-button data-select-class="order-sm-12">Order-12</we-button>
+			        </we-select>
+	            </we-row>
+	            <we-row string="Medium">
+	            	 <we-select data-no-preview="true">
+			            <we-button data-select-class="">None</we-button>
+			            <we-button data-select-class="order-md-1">Order-1</we-button>
+			            <we-button data-select-class="order-md-2">Order-2</we-button>
+			            <we-button data-select-class="order-md-3">Order-3</we-button>
+			            <we-button data-select-class="order-md-4">Order-4</we-button>
+			            <we-button data-select-class="order-md-5">Order-5</we-button>
+			            <we-button data-select-class="order-md-6">Order-6</we-button>
+			            <we-button data-select-class="order-md-7">Order-7</we-button>
+			            <we-button data-select-class="order-md-8">Order-8</we-button>
+			            <we-button data-select-class="order-md-9">Order-9</we-button>
+			            <we-button data-select-class="order-md-10">Order-10</we-button>
+			            <we-button data-select-class="order-md-11">Order-11</we-button>
+			            <we-button data-select-class="order-md-12">Order-12</we-button>
+			        </we-select>
+	            </we-row>
+	            <we-row string="Large">
+	            	 <we-select data-no-preview="true">
+			            <we-button data-select-class="">None</we-button>
+			            <we-button data-select-class="order-lg-1">Order-1</we-button>
+			            <we-button data-select-class="order-lg-2">Order-2</we-button>
+			            <we-button data-select-class="order-lg-3">Order-3</we-button>
+			            <we-button data-select-class="order-lg-4">Order-4</we-button>
+			            <we-button data-select-class="order-lg-5">Order-5</we-button>
+			            <we-button data-select-class="order-lg-6">Order-6</we-button>
+			            <we-button data-select-class="order-lg-7">Order-7</we-button>
+			            <we-button data-select-class="order-lg-8">Order-8</we-button>
+			            <we-button data-select-class="order-lg-9">Order-9</we-button>
+			            <we-button data-select-class="order-lg-10">Order-10</we-button>
+			            <we-button data-select-class="order-lg-11">Order-11</we-button>
+			            <we-button data-select-class="order-lg-12">Order-12</we-button>
+			        </we-select>
+	            </we-row>
+	            <we-row string="Extra Large">
+	            	 <we-select data-no-preview="true">
+			            <we-button data-select-class="">None</we-button>
+			            <we-button data-select-class="order-xl-1">Order-1</we-button>
+			            <we-button data-select-class="order-xl-2">Order-2</we-button>
+			            <we-button data-select-class="order-xl-3">Order-3</we-button>
+			            <we-button data-select-class="order-xl-4">Order-4</we-button>
+			            <we-button data-select-class="order-xl-5">Order-5</we-button>
+			            <we-button data-select-class="order-xl-6">Order-6</we-button>
+			            <we-button data-select-class="order-xl-7">Order-7</we-button>
+			            <we-button data-select-class="order-xl-8">Order-8</we-button>
+			            <we-button data-select-class="order-xl-9">Order-9</we-button>
+			            <we-button data-select-class="order-xl-10">Order-10</we-button>
+			            <we-button data-select-class="order-xl-11">Order-11</we-button>
+			            <we-button data-select-class="order-xl-12">Order-12</we-button>
+			        </we-select>
+	            </we-row>
+	        </we-collapse>
+        	<we-collapse>
+	            <we-row string="Column Offset">
+	            	 <we-select data-no-preview="true">
+			            <we-button data-select-class="">None</we-button>
+			            <we-button data-select-class="offset-1">Offset-1</we-button>
+			            <we-button data-select-class="offset-2">Offset-2</we-button>
+			            <we-button data-select-class="offset-3">Offset-3</we-button>
+			            <we-button data-select-class="offset-4">Offset-4</we-button>
+			            <we-button data-select-class="offset-5">Offset-5</we-button>
+			            <we-button data-select-class="offset-6">Offset-6</we-button>
+			            <we-button data-select-class="offset-7">Offset-7</we-button>
+			            <we-button data-select-class="offset-8">Offset-8</we-button>
+			            <we-button data-select-class="offset-9">Offset-9</we-button>
+			            <we-button data-select-class="offset-10">Offset-10</we-button>
+			            <we-button data-select-class="offset-11">Offset-11</we-button>
+			            <we-button data-select-class="offset-12">Offset-12</we-button>
+			        </we-select>
+	            </we-row>
+	            <we-row string="Small">
+	            	 <we-select data-no-preview="true">
+			            <we-button data-select-class="">None</we-button>
+			            <we-button data-select-class="offset-sm-1">Offset-1</we-button>
+			            <we-button data-select-class="offset-sm-2">Offset-2</we-button>
+			            <we-button data-select-class="offset-sm-3">Offset-3</we-button>
+			            <we-button data-select-class="offset-sm-4">Offset-4</we-button>
+			            <we-button data-select-class="offset-sm-5">Offset-5</we-button>
+			            <we-button data-select-class="offset-sm-6">Offset-6</we-button>
+			            <we-button data-select-class="offset-sm-7">Offset-7</we-button>
+			            <we-button data-select-class="offset-sm-8">Offset-8</we-button>
+			            <we-button data-select-class="offset-sm-9">Offset-9</we-button>
+			            <we-button data-select-class="offset-sm-10">Offset-10</we-button>
+			            <we-button data-select-class="offset-sm-11">Offset-11</we-button>
+			            <we-button data-select-class="offset-sm-12">Offset-12</we-button>
+			        </we-select>
+	            </we-row>
+	            <we-row string="Medium">
+	            	 <we-select data-no-preview="true">
+			            <we-button data-select-class="">None</we-button>
+			            <we-button data-select-class="offset-md-1">Offset-1</we-button>
+			            <we-button data-select-class="offset-md-2">Offset-2</we-button>
+			            <we-button data-select-class="offset-md-3">Offset-3</we-button>
+			            <we-button data-select-class="offset-md-4">Offset-4</we-button>
+			            <we-button data-select-class="offset-md-5">Offset-5</we-button>
+			            <we-button data-select-class="offset-md-6">Offset-6</we-button>
+			            <we-button data-select-class="offset-md-7">Offset-7</we-button>
+			            <we-button data-select-class="offset-md-8">Offset-8</we-button>
+			            <we-button data-select-class="offset-md-9">Offset-9</we-button>
+			            <we-button data-select-class="offset-md-10">Offset-10</we-button>
+			            <we-button data-select-class="offset-md-11">Offset-11</we-button>
+			            <we-button data-select-class="offset-md-12">Offset-12</we-button>
+			        </we-select>
+	            </we-row>
+	            <we-row string="Large">
+	            	 <we-select data-no-preview="true">
+			            <we-button data-select-class="">None</we-button>
+			            <we-button data-select-class="offset-lg-1">Offset-1</we-button>
+			            <we-button data-select-class="offset-lg-2">Offset-2</we-button>
+			            <we-button data-select-class="offset-lg-3">Offset-3</we-button>
+			            <we-button data-select-class="offset-lg-4">Offset-4</we-button>
+			            <we-button data-select-class="offset-lg-5">Offset-5</we-button>
+			            <we-button data-select-class="offset-lg-6">Offset-6</we-button>
+			            <we-button data-select-class="offset-lg-7">Offset-7</we-button>
+			            <we-button data-select-class="offset-lg-8">Offset-8</we-button>
+			            <we-button data-select-class="offset-lg-9">Offset-9</we-button>
+			            <we-button data-select-class="offset-lg-10">Offset-10</we-button>
+			            <we-button data-select-class="offset-lg-11">Offset-11</we-button>
+			            <we-button data-select-class="offset-lg-12">Offset-12</we-button>
+			        </we-select>
+	            </we-row>
+	            <we-row string="Extra Large">
+	            	 <we-select data-no-preview="true">
+			            <we-button data-select-class="">None</we-button>
+			            <we-button data-select-class="offset-xl-1">Offset-1</we-button>
+			            <we-button data-select-class="offset-xl-2">Offset-2</we-button>
+			            <we-button data-select-class="offset-xl-3">Offset-3</we-button>
+			            <we-button data-select-class="offset-xl-4">Offset-4</we-button>
+			            <we-button data-select-class="offset-xl-5">Offset-5</we-button>
+			            <we-button data-select-class="offset-xl-6">Offset-6</we-button>
+			            <we-button data-select-class="offset-xl-7">Offset-7</we-button>
+			            <we-button data-select-class="offset-xl-8">Offset-8</we-button>
+			            <we-button data-select-class="offset-xl-9">Offset-9</we-button>
+			            <we-button data-select-class="offset-xl-10">Offset-10</we-button>
+			            <we-button data-select-class="offset-xl-11">Offset-11</we-button>
+			            <we-button data-select-class="offset-xl-12">Offset-12</we-button>
+			        </we-select>
+	            </we-row>
+	        </we-collapse>
+        	<we-collapse>
+	            <we-row string="Pull Column">
+	            	<we-button-group>
+			            <we-button title="Left" data-select-class="ml-auto">
+			            	<i class="fa fa-fw fa-arrow-left"/>
+			            </we-button>
+			            <we-button title="Right" data-select-class="mr-auto">
+			            	<i class="fa fa-fw fa-arrow-right"/>
+			            </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Small">
+	            	<we-button-group>
+			            <we-button title="Left" data-select-class="ml-sm-auto">
+			            	<i class="fa fa-fw fa-arrow-left"/>
+			            </we-button>
+			            <we-button title="Right" data-select-class="mr-sm-auto">
+			            	<i class="fa fa-fw fa-arrow-right"/>
+			            </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Medium">
+	            	<we-button-group>
+			            <we-button title="Left" data-select-class="ml-md-auto">
+			            	<i class="fa fa-fw fa-arrow-left"/>
+			            </we-button>
+			            <we-button title="Right" data-select-class="mr-md-auto">
+			            	<i class="fa fa-fw fa-arrow-right"/>
+			            </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Large">
+	            	<we-button-group>
+			            <we-button title="Left" data-select-class="ml-lg-auto">
+			            	<i class="fa fa-fw fa-arrow-left"/>
+			            </we-button>
+			            <we-button title="Right" data-select-class="mr-lg-auto">
+			            	<i class="fa fa-fw fa-arrow-right"/>
+			            </we-button>
+			    	</we-button-group>
+	            </we-row>
+	            <we-row string="Extra Large">
+	            	<we-button-group>
+			            <we-button title="Left" data-select-class="ml-xl-auto">
+			            	<i class="fa fa-fw fa-arrow-left"/>
+			            </we-button>
+			            <we-button title="Right" data-select-class="mr-xl-auto">
+			            	<i class="fa fa-fw fa-arrow-right"/>
+			            </we-button>
+			    	</we-button-group>
+	            </we-row>
+	        </we-collapse>
+        	<we-button-group string="Content">
+	            <we-button title="Blocks" data-select-class="oe_structure">
+	            	<i class="fa fa-fw fa-th"/>
+		        </we-button>
+	            <we-button title="Content" data-select-class="content">
+	            	<i class="fa fa-fw fa-font"/>
+		        </we-button>
+	    	</we-button-group>
+        </div>
+        <div data-selector=".s_grid_break" data-drop-near=".s_grid_column" />
+    </xpath>
+</template>
+
+</odoo>

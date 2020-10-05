@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+	<template id="assets_wysiwyg" inherit_id="website.assets_wysiwyg" priority="10">
+		<xpath expr="//link[@href='/website/static/src/scss/website.edit_mode.scss']" position="after">
+			<link rel="stylesheet" href="/muk_website_grid/static/src/scss/edit_mode.scss" />
+		</xpath>
+	</template>
+
+</odoo>
