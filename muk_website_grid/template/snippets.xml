@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+	<template id="s_grid_section" name="Section">
+		<section class="s_grid_section" data-editor-message="DROP CONTAINER HERE"></section>
+	</template>
+	
+	<template id="s_grid_container" name="Container">
+		<div class="s_grid_container container" data-editor-message="DROP ROWS HERE"></div>
+	</template>
+	
+	<template id="s_grid_row" name="Row">
+		<div class="s_grid_row row" data-editor-message="DROP COLUMNS HERE"></div>
+	</template>
+	
+	<template id="s_grid_column" name="Column">
+		<div class="s_grid_column col content" data-editor-message="DROP CONTENT HERE"></div>
+	</template>
+	
+	<template id="s_grid_break" name="Break">
+		<div class="s_grid_break w-100"></div>
+	</template>
+	
+	<template id="s_grid_template" name="Template">
+		<section class="s_grid_section" data-editor-message="DROP CONTAINER HERE">
+			<div class="s_grid_container container" data-editor-message="DROP ROWS HERE">
+				<div class="s_grid_row row" data-editor-message="DROP COLUMNS HERE">
+					<div class="s_grid_column col content" data-editor-message="DROP CONTENT HERE"></div>
+					<div class="s_grid_column col content" data-editor-message="DROP CONTENT HERE"></div>
+					<div class="s_grid_column col content" data-editor-message="DROP CONTENT HERE"></div>
+				</div>
+				<div class="s_grid_row row" data-editor-message="DROP COLUMNS HERE">
+					<div class="s_grid_column col content" data-editor-message="DROP CONTENT HERE"></div>
+					<div class="s_grid_column col content" data-editor-message="DROP CONTENT HERE"></div>
+					<div class="s_grid_column col content" data-editor-message="DROP CONTENT HERE"></div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+	<template id="snippets" inherit_id="website.snippets">
+		<xpath expr="//div[@id='snippet_structure']" position="after">
+			<div id="snippet_grid" class="o_panel">
+				<div class="o_panel_header">
+					Grid System
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="muk_website_grid.s_grid_section" t-thumbnail="/muk_website_grid/static/src/img/section.svg">
+                        <keywords>grid, section</keywords>
+                    </t>
+					<t t-snippet="muk_website_grid.s_grid_container" t-thumbnail="/muk_website_grid/static/src/img/container.svg">
+                        <keywords>grid, container</keywords>
+                    </t>
+					<t t-snippet="muk_website_grid.s_grid_row" t-thumbnail="/muk_website_grid/static/src/img/row.svg">
+                        <keywords>grid, row</keywords>
+                    </t>
+					<t t-snippet="muk_website_grid.s_grid_column" t-thumbnail="/muk_website_grid/static/src/img/column.svg">
+                        <keywords>grid, column</keywords>
+                    </t>
+					<t t-snippet="muk_website_grid.s_grid_break" t-thumbnail="/muk_website_grid/static/src/img/break.svg">
+                        <keywords>grid, break</keywords>
+                    </t>
+					<t t-snippet="muk_website_grid.s_grid_template" t-thumbnail="/muk_website_grid/static/src/img/template.svg">
+                        <keywords>grid, template</keywords>
+                    </t>
+				</div>
+			</div>
+		</xpath>
+	</template>
+
+</odoo>
