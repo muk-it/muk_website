@@ -1,3 +1,25 @@
+/**********************************************************************************
+*
+*    Copyright (c) 2017-today MuK IT GmbH.
+*
+*    This file is part of MuK Grid Snippets
+*    (see https://mukit.at).
+*
+*    This program is free software: you can redistribute it and/or modify
+*    it under the terms of the GNU Lesser General Public License as published by
+*    the Free Software Foundation, either version 3 of the License, or
+*    (at your option) any later version.
+*
+*    This program is distributed in the hope that it will be useful,
+*    but WITHOUT ANY WARRANTY; without even the implied warranty of
+*    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*    GNU Lesser General Public License for more details.
+*
+*    You should have received a copy of the GNU Lesser General Public License
+*    along with this program. If not, see <http://www.gnu.org/licenses/>.
+*
+**********************************************************************************/
+
 .o_editable {
 	*:empty, * > .oe_drop_zone.oe_insert:not(.oe_vertical):only-child {
 	    &.s_grid_section, &.s_grid_container, &.s_grid_row, &.s_grid_column {
@@ -16,10 +38,19 @@
 			flex-direction: column;
 		}
 	}
-	.s_grid_section, .s_grid_container, .s_grid_row, .s_grid_column {
+	.s_grid_section, .s_grid_container {
 		> .oe_drop_zone.oe_insert:not(.oe_vertical):only-child {
-			@extend %o-editor-messages;
+	    	@extend %o-editor-messages;
             color: $o-brand-odoo;
+			padding: 112px 0px;
+            height: auto;
+        }
+	}
+	.s_grid_row, .s_grid_column {
+		> .oe_drop_zone.oe_insert:not(.oe_vertical):only-child {
+	    	@extend %o-editor-messages;
+            color: $o-brand-odoo;
+			padding: 56px 0px;
             height: auto;
         }
 	}
